@@ -1,0 +1,14 @@
+D:\ErrasoftBackend\sessions\task3\OOP\bin\Debug\net8.0\OOP.exe
+D:\ErrasoftBackend\sessions\task3\OOP\bin\Debug\net8.0\OOP.deps.json
+D:\ErrasoftBackend\sessions\task3\OOP\bin\Debug\net8.0\OOP.runtimeconfig.json
+D:\ErrasoftBackend\sessions\task3\OOP\bin\Debug\net8.0\OOP.dll
+D:\ErrasoftBackend\sessions\task3\OOP\bin\Debug\net8.0\OOP.pdb
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.AssemblyInfoInputs.cache
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.AssemblyInfo.cs
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.csproj.CoreCompileInputs.cache
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.dll
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\refint\OOP.dll
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.pdb
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.genruntimeconfig.cache
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\ref\OOP.dll

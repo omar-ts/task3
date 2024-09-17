@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ErrasoftBackend\\sessions\\task3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9D79A7-6EA3-4598-B996-7D3F8CD77608}|OOP\\OOP.csproj|d:\\errasoftbackend\\sessions\\task3\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9D79A7-6EA3-4598-B996-7D3F8CD77608}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ErrasoftBackend\\sessions\\task3\\OOP\\Program.cs",
+              "RelativeDocumentMoniker": "OOP\\Program.cs",
+              "ToolTip": "D:\\ErrasoftBackend\\sessions\\task3\\OOP\\Program.cs*",
+              "RelativeToolTip": "OOP\\Program.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:45:12.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
