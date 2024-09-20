@@ -8,51 +8,55 @@ namespace OOP
     {
         class Book
         {
-            public string title;
-            public string author;
-            public string isbn;
+            public string title { get; }
+            public string author { get; }
+            public string isbn { get; }
+            public bool availability { get; set; }
 
-            public Book(string title, string author, string isbn)
+            public Book(string title, string author, string isbn, bool availability = true)
             {
                 this.title = title;
                 this.author = author;
                 this.isbn = isbn;
+                this.availability = availability;
             }
         }
         class Library
         {
             public List<Book> books = new();
-            public List<Book> borrowed = new();
             public List<Book> AddBook(Book book)
             {
                 books.Add(book);
                 return books;
             }
-            public void BorrowBook(string title)
+            public bool BorrowBook(string title)
             {
-               for(int i = 0; i<books.Count;i++)
+                for (int i = 0; i < books.Count; i++)
                 {
                     if (title == books[i].title)
                     {
-                        borrowed.Add(books[i]);
-                        Console.WriteLine("you can borrow it");
-                        return;
+                        Console.WriteLine("you can boorow it");
+                        return books[i].availability = false;
                     }
                 }
-                Console.WriteLine("the book is not in the library");
+                Console.WriteLine("this book is not in the library");
+                return false;
             }
+
             public void ReturnBook(string title)
             {
-                for (int i=0; i<borrowed.Count;i++ )
+                for(int i=0; i<books.Count;i++)
                 {
-                    if (title == borrowed[i].title)
+                    if (title == books[i].title && books[i].availability==false)
                     {
-                        Console.WriteLine("the book returned");
+                        Console.WriteLine("The book can be returned");
+                        books[i].availability = true;
                         return;
                     }
                 }
-                Console.WriteLine("the book isnot borrowed");
+                Console.WriteLine("The book isn't borrowed");
             }
+
         }
         static void Main(string[] args)
         {
@@ -63,9 +67,9 @@ namespace OOP
 
             // Searching and borrowing books
             Console.WriteLine("Searching and borrowing books...");
-            library.BorrowBook("The Great Gatsby");
-            library.BorrowBook("1984");
-            library.BorrowBook("Harry Potter"); // This book is not in the library
+            bool x = library.BorrowBook("The Great Gatsby");
+            bool y = library.BorrowBook("1984");
+            bool z = library.BorrowBook("Harry Potter"); // This book is not in the library
 
             // Returning books
             Console.WriteLine("\nReturning books...");

@@ -12,3 +12,4 @@ D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\refint\OOP.dll
 D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.pdb
 D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.genruntimeconfig.cache
 D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\ref\OOP.dll
+D:\ErrasoftBackend\sessions\task3\OOP\obj\Debug\net8.0\OOP.sourcelink.json
